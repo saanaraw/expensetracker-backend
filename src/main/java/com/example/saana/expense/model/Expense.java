@@ -20,7 +20,7 @@ public class Expense {
     @Id
     private Long id;
     private Instant expensedate;
-    private String descript;
+    private String description;
     private String location;
 
     @ManyToOne
