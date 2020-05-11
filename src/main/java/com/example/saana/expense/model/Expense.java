@@ -21,6 +21,7 @@ public class Expense {
     private Long id;
     private Instant expensedate;
     private String descript;
+    private String location;
 
     @ManyToOne
     private Category category;
